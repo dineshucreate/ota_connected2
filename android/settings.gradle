@@ -1,0 +1,3 @@
+rootProject.name = 'OTAConnected2'
+
+include ':app'
