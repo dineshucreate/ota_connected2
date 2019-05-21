@@ -1,3 +1,4 @@
 <resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">H3X5abvJKqMp0c6F8QSD6HhBdek9HkGAALZp4</string>
     <string name="app_name">OTAConnected2</string>
 </resources>
