@@ -7,7 +7,7 @@
  */
 
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import codePush from 'react-native-code-push';
 
 const instructions = Platform.select({
@@ -30,7 +30,10 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>I am Thor fan!</Text>
+        <Text style={styles.welcome}>I am Iron man!</Text>
+        <TouchableOpacity onPress={()=> alert('I am Groot!')} style={{borderColor:'red', borderWidth:1}}>
+        <Text style={styles.welcome}>Groot Replay!</Text>
+        </TouchableOpacity>
       </View>
     );
   }
